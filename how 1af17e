@@ -1,0 +1,178 @@
+[33mcommit 9c775a9f9d9bf07c7f6ac548e96f5171a8ce6bdd[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Shamrin <prmayster@gmail.com>
+Date:   Thu Dec 7 15:58:26 2023 +0200
+
+    the entire first page has been laid out
+
+[1mdiff --git a/Netflix_site/img/Ellipse 2.png b/Netflix_site/img/Ellipse 2.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..153d9c4[m
+Binary files /dev/null and b/Netflix_site/img/Ellipse 2.png differ
+[1mdiff --git a/Netflix_site/img/Rectangle 1.jpg b/Netflix_site/img/Rectangle 1.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d8ac344[m
+Binary files /dev/null and b/Netflix_site/img/Rectangle 1.jpg differ
+[1mdiff --git a/Netflix_site/img/fe_search.svg b/Netflix_site/img/fe_search.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..195a0a8[m
+[1m--- /dev/null[m
+[1m+++ b/Netflix_site/img/fe_search.svg[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">[m
+[32m+[m[32m<g id="fe:search">[m
+[32m+[m[32m<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M29.249 26.6941L38.8881 36.3332C39.2269 36.6723 39.4172 37.132 39.417 37.6113C39.4169 38.0906 39.2263 38.5502 38.8872 38.889C38.5482 39.2278 38.0885 39.4181 37.6092 39.4179C37.1298 39.4177 36.6702 39.2272 36.3314 38.8881L26.6923 29.249C23.8107 31.4808 20.1872 32.5311 16.5588 32.1861C12.9304 31.8412 9.56972 30.1269 7.16038 27.3921C4.75104 24.6573 3.47404 21.1073 3.58918 17.4644C3.70431 13.8214 5.20293 10.3592 7.78016 7.78194C10.3574 5.20471 13.8196 3.7061 17.4626 3.59096C21.1055 3.47583 24.6555 4.75282 27.3903 7.16217C30.1252 9.57151 31.8394 12.9322 32.1844 16.5606C32.5293 20.189 31.479 23.8125 29.2472 26.6941H29.249ZM17.9167 28.6667C20.7678 28.6667 23.5021 27.5341 25.5181 25.5181C27.5341 23.5021 28.6667 20.7678 28.6667 17.9167C28.6667 15.0656 27.5341 12.3313 25.5181 10.3153C23.5021 8.29926 20.7678 7.16668 17.9167 7.16668C15.0656 7.16668 12.3313 8.29926 10.3153 10.3153C8.29927 12.3313 7.16668 15.0656 7.16668 17.9167C7.16668 20.7678 8.29927 23.5021 10.3153 25.5181C12.3313 27.5341 15.0656 28.6667 17.9167 28.6667Z" fill="white"/>[m
+[32m+[m[32m</g>[m
+[32m+[m[32m</svg>[m
+[1mdiff --git a/Netflix_site/img/netflix-logo-png-2562 1.png b/Netflix_site/img/netflix-logo-png-2562 1.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f8c482a[m
+Binary files /dev/null and b/Netflix_site/img/netflix-logo-png-2562 1.png differ
+[1mdiff --git a/Netflix_site/index.html b/Netflix_site/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3291cdd[m
+[1m--- /dev/null[m
+[1m+++ b/Netflix_site/index.html[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Document</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="styles.css">[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m[32m    <div class="wrapper">[m
+[32m+[m[32m        <section class="header">[m
+[32m+[m[32m            <div class="header_bloc_logo">[m
+[32m+[m[32m                <img src="img/netflix-logo-png-2562 1.png" alt="netflix logo" class="header_bloc_logo_netflix">[m[41m  [m
+[32m+[m[32m                <div class="header_bloc_logo_text">Friday July 8th</div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="header_bloc_profil">[m
+[32m+[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m    </div>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <h1></h1>[m
+[32m+[m
+[32m+[m[32m    <!-- <script src="index.js"></script> -->[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/Netflix_site/index.js b/Netflix_site/index.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b0bd267[m
+[1m--- /dev/null[m
+[1m+++ b/Netflix_site/index.js[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32mconst arr = [1, 4, 6, 7, 8, 9, 11, 23];[m
+[32m+[m[32mfor(let i = arr.length; i > 0; i-- ) {[m
+[32m+[m[32m    console.log(arr[i - 1]);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mlet x = 0[m
+[32m+[m[32mwhile(x <= 5) {[m
+[32m+[m[32m    console.log(x);[m
+[32m+[m[32m    x++;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mlet word = '';[m
+[32m+[m[32mwhile(word.length < 5) {[m
+[32m+[m[32m   const value =  prompt('Vvedite bukvu')[m
+[32m+[m[32m   if(value != Number) {[m
+[32m+[m[32m    prompt('Vvedite bukvu')[m
+[32m+[m[32m   }[m
+[32m+[m[32m   if(value.length == 0 || value != Number) {[m
+[32m+[m[32m    break;[m
+[32m+[m[32m   }[m
+[32m+[m[32m   word = word + value;[m
+[32m+[m[32m   console.log(word);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mlet[m[41m [m
+\ No newline at end of file[m
+[1mdiff --git a/Netflix_site/styles.css b/Netflix_site/styles.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1f4c5f6[m
+[1m--- /dev/null[m
+[1m+++ b/Netflix_site/styles.css[m
+[36m@@ -0,0 +1,23 @@[m
+[32m+[m[32m*,[m
+[32m+[m[32m*:before,[m
+[32m+[m[32m*:after {[m
+[32m+[m[32m    margin : 0;[m
+[32m+[m[32m    padding : 0;[m
+[32m+[m[32m    border: 0;[m
+[32m+[m[32m    box-sizing: border-box;[m
+[32m+[m[32m}[m
+[32m+[m[32mhtml,[m
+[32m+[m[32mbody{[m
+[32m+[m[32m    /* height: 100%; */[m
+[32m+[m[32m    margin : 0;[m
+[32m+[m[32m    padding : 0;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mbody {[m
+[32m+[m[32m    background: url(img/Rectangle\ 1.jpg) no-repeat center top fixed;[m
+[32m+[m[32m    -webkit-background-size: cover;[m
+[32m+[m[32m    -moz-background-size: cover;[m
+[32m+[m[32m    -o-background-size: cover;[m
+[32m+[m[32m     background-size: cover;[m
+[32m+[m[32m     z-index: 1000;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mdeleted file mode 100644[m
+[1mindex d01f779..0000000[m
+[1m--- a/index.html[m
+[1m+++ /dev/null[m
+[36m@@ -1,11 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="en">[m
+[31m-<head>[m
+[31m-    <meta charset="UTF-8">[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>Document</title>[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-    [m
+[31m-</body>[m
+[31m-</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/index.js b/index.js[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+
+[33mcommit 30b6a6ae7211db8205ae60b08d25d3acc77b0c1a[m
+Author: Shamrin <prmayster@gmail.com>
+Date:   Thu Nov 30 16:46:30 2023 +0200
+
+    first commit
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d01f779[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Document</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[41m    [m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/index.js b/index.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m

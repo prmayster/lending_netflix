@@ -13,11 +13,205 @@ body{
     padding : 0;
 }
 
-body {
+.body_bg {
     background: url(img/Rectangle\ 1.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-     background-size: cover;
-     z-index: 1000;
+    background-size: cover;
+    z-index: 1000;
+    padding: 20px 30px 10px 80px;   
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.header_bloc_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-content: center;
+    padding: 17px 0 0 0;
+    width: 400px;
+}
+.header_bloc_logo_netflix {
+    width: 156px;
+    height: 48.326px;
+}
+.header_bloc_logo_text {
+    font-family: Kyiv*Type Titling;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #C8C8C8;
+    font-size: 24px;
+    width: 213px;
+    height: 44px;
+}
+.header_bloc_profil_search {
+    margin: 0px 20px 15px 0px;
+}
+
+.text_bloc {
+    margin-top: 80px;
+}
+.bloc_genre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 32px;
+    width: 564px;
+}
+.border_left {
+    border-left: 3px solid #ffffff;
+}
+.text_bloc_filmName {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 25px 0 30px 0; 
+}
+li {
+    color: #ffffff;
+    list-style-type: none;  
+}
+
+.text_bloc_filmInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 847px;
+    color: #FFF;
+}
+.text_bloc_filmInfo {
+    margin: 20px 0 8px 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+}
+.text_bloc_filmInfo_grey {
+    color: #8d8d8d;
+}
+.text_bloc_mainText {
+    width: 765px;
+    height: 100px;
+    color: #A7A6A6;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.stars_bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px; 
+}
+.stars_bloc_star {
+    width: 32px;
+    height: 32px;
+}
+
+.button_bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 25px;
+}
+.button {
+    width: 272px;
+    height: 64px;
+    border-radius:10px;
+    font-style: normal;
+    font-weight: 500;
+}
+.button_bloc_redButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background: red;
+    padding: 0px 30px 0px 40px;
+}
+.button_bloc_redButton_text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.button_bloc_redButton_icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 17px;
+}
+.button_bloc_button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 16px 30px 0px 70px;
+}
+
+.popular_bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 530px;
+}
+.text {
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 25px;
+}
+.popular_bloc_button {
+    /* margin-top: 15px; */
+    padding-top: 20px;
+}
+.popular_bloc_button_icon{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.morFilms_bloc, .popular_bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    margin-top: 15px;
+}
+.morFilms_bloc_carts {
+    width: 151px;
+    height: 210px;
+}
+
+.age_bloc {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom:50px;
+    right:50px;
+    right: 0px;
+    width: 174px;
+    background: #7d7d7d;  
+}
+.age_bloc_red {
+    width: 33px;
+    height: 66px;
+    background: #D40D1F;
+}
+.age_bloc_gren_age {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 20px 0 0 26px;   
 }
