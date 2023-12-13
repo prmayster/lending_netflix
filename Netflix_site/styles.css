@@ -19,6 +19,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
     z-index: 1000;
     padding: 20px 30px 10px 80px;   
 }
@@ -63,8 +64,21 @@ body{
     font-size: 32px;
     width: 564px;
 }
-.border_left {
-    border-left: 3px solid #ffffff;
+.header_bloc_logo_text::before {
+    /* color:#FFF; */
+    content: "";
+    border: 1px solid #FFF;
+    margin-right: 26px;
+}
+.border_category::before {
+    content: "";
+    border: 1px solid #FFF;
+    margin-right: 35px;
+}
+.border_left::before {
+    content: "";
+    border: 1px solid #FFF;
+    margin-right: 10px;
 }
 .text_bloc_filmName {
     color: #FFF;
@@ -177,8 +191,17 @@ li {
     padding-top: 20px;
 }
 .popular_bloc_button_icon{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgba(255, 255, 255, 0.7);
     border-radius: 50%;
+    opacity: .7;
+}
+.rotated_btn {
+    transform: rotate(180deg); 
+}
+.popular_bloc_button_icon:hover {
+    border: 2px solid rgb(255, 255, 255);
+    opacity: 1;
+
 }
 .morFilms_bloc, .popular_bloc {
     display: flex;
